@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    pageName: '智能裁剪'
+    pageName: '图像标签'
   },
   // 事件处理函数
   changePage() {
