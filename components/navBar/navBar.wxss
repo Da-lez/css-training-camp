@@ -1,0 +1,17 @@
+.navTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88rpx;
+    /* 根据设计图得出44px */
+}
+
+.navTitle text {
+    width: 120rpx;
+    height: 38rpx;
+    font-size: 30rpx;
+    font-weight: 400;
+    line-height: 42rpx;
+}
+
+/* 设计图直接复制的值,这里的字体看着不像 */

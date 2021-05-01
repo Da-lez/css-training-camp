@@ -1,0 +1,6 @@
+<view class="navBar" style=" margin-top:{{2*statusBarHeight}}rpx"> 
+    <view class="navTitle">
+        <text>{{name}}</text>
+    </view>
+</view>
+<!-- 获取状态栏高度制定导航栏组件 -->

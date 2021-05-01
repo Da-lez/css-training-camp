@@ -1,0 +1,31 @@
+<navBar name="{{pageName}}"></navBar>
+<view class="container">
+  <view class="module">
+
+    <block wx:if="{{pageName==='图像标签'}}">
+      <text class="module1-text">上传图片，会自动显示图片的主要特征标签</text>
+      <image class="module1-image" src="/images/cloud.png"></image>
+    </block>
+
+    <block wx:else>
+      <text class="module2-text">上传带有人像的照片，智能裁剪可以防止人像被切
+        割，从而获得更好的缩略图体验</text>
+
+        <image class="module2-img0" src="/images/img0.png"></image>
+        <view class="module2-cutImg">
+          <image class="module2-cutImg1" src="/images/img1.png"></image>
+          <image class="module2-cutImg2" src="/images/img2.png"></image>
+          <image class="module2-cutImg3" src="/images/img3.png"></image>
+
+
+      </view>
+    </block>
+
+
+  </view>
+
+  <view class="upload" bindtap="changePage">
+    <image class="upload-image" src="/images/upload.png"></image>
+    <text class="upload-text">上传</text>
+  </view>
+</view>
